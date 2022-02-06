@@ -1,0 +1,6 @@
+name: cHub
+version: 0.1
+main: com.sixpack.hub.Hub
+author: Dinnertable
+commands:
+    hubAdmin:

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/liams/Desktop/backup/Random/Programing/Servers/Project #1/Bungee Server/Lobby/custom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/liams/Desktop/backup/Random/Programing/Servers/Project #1/Bungee Server/Bungee/BungeeCord.jar"/>
+	<classpathentry kind="lib" path="C:/Users/liams/Desktop/backup/Random/Programing/Servers/Project #1/Bungee Server/Lobby/plugins/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/liams/Downloads/aPermissions.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

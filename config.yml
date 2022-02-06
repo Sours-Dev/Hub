@@ -1,0 +1,111 @@
+# ------------------------------------------------
+#				Hub
+#				by: 6pack
+# ------------------------------------------------
+#Player
+# ------------------------------------------------
+# 1-20 (1 is half a heart then goes up by halfs)
+Health: 2
+# put 0 if you dont want player to have any effects
+Speed: 5
+JumpBoost: 3
+# ------------------------------------------------
+# Options
+# ------------------------------------------------
+# Please put: day or night or none  (none will disable it)
+AlwaysTime: day
+ClearInvOnJoin: true
+SpawnonJoin: true
+AntiRain: true
+AntiMob: true
+#edit join message %player% for the placeholder (null means there wont be one). Same applys for quit message
+JoinMessage: "null"
+QuitMessage: "null"
+# Change players gamemode to survial on join
+ChangeGameMode: true
+DoubleJump: true
+#if user has perm: hub.build they can build
+AntiBuild: true
+AntiHunger: true
+AntiPvP: true
+# drop and pickup items
+# Players with hub.build perm and in gamemode will bypass
+AntiDrop: true
+AntiPickUp: true
+# when enabled stops player from moving items around (players in gamemode with hub.build will bypass)
+MoveInventory: true
+# uses the items below to give them when player loggs in.
+SpawnItems: true
+# ------------------------------------------------
+# Items
+# ------------------------------------------------
+HubSelector:
+  ItemEnabled: true
+  ItemID: "120"
+  ItemName: "&b&lHub Selector"
+  ItemDesc:
+    - "&fRight click to open gui."
+  ItemEnchanted: true     
+  ItemSlot: 1
+  ItemInHand: true
+PlayerToggle:
+  ItemEnabled: true
+  CoolDown: 5
+  ItemSlot: 9
+  HidePlayers:
+    ItemID: "351:8"
+    ItemName: "&cHide Players"
+    ItemDesc:
+    - "&fRight click to hide players."  
+    ItemEnchanted: true
+  ShowPlayers:
+    ItemID: "351:9"
+    ItemName: "&bShow Players"
+    ItemDesc:
+    - "&fRight click to show players."  
+    ItemEnchanted: true
+# ------------------------------------------------
+# Scoreboard
+# ------------------------------------------------
+Scoreboard:
+  enabled: true
+  title: " &b&lKaru Network"
+  footer: "&8&m------------------------------------" 
+  header: "&8&m------------------------------------&e"
+  section: 
+    - "&f&l * &b&lRank"
+    - "    &f%rank%" 
+    - "&f"
+    - "&c"
+    - "&f&l * &b&lTotal Online" 
+    - "    &f%totalOnline%"
+# ------------------------------------------------
+# Server selector
+# ------------------------------------------------
+serverSelector:
+  title: "&b&lServer Selector"
+  filler: "160"
+  enchanted: true
+  servers:
+    1:
+      name: "practice"
+      slot: 123
+      itemid: "35:14" 
+      title: "&b&lPractice"
+      desc:
+        - "&8&m--------------------"
+        - " &7Click to join practice"
+        - "&c"
+        - " &f&lOnline: &7%online%"
+        - "&8&m--------------------"  
+    2:
+      name: "kitpvp"
+      slot: 13
+      itemid: "35:1"      
+      title: "&b&lKitPvP"
+      desc:
+        - "&8&m--------------------"
+        - " &7Click to join kitpvp"
+        - "&c"
+        - " &f&lOnline: &7%online%"
+        - "&8&m--------------------"             
